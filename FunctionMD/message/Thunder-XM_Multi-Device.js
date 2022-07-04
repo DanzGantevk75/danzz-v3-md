@@ -172,7 +172,7 @@ function randomNomor(min, max = null) {
    let B = "┞"
    let stick = "╿"
    let tayime = "🕒 *Time:*"
-   let runtz = "⏱️*Runtime:*"
+   let runtz = "⏱️ *Runtime:*"
    let taipye = "💻 *Type:*"
    let borderlist = "╭╾───────────────╼╮"
    let borderlistend = "╰╾───────────────╼╯"
@@ -2076,7 +2076,21 @@ if (q.includes('--help')) return reply(examkosong)
       urlButton: {
        displayText: 'Group Bot ', 
        url: 'https://chat.whatsapp.com/EmCBNEjwdOcHzRlGCXKoxK'
-       } }
+       }
+       }, 
+       {
+       index: 1, 
+       urlButton: {
+       displayText: '𝙶𝙸𝚃𝙷𝚄𝙱', 
+       url: 'https://github.com/DanzGantevk75'
+       }
+       }, 
+       {
+        index: 1, 
+      urlButton: {
+       displayText: '𝚈𝙾𝚄𝚃𝚄𝙱𝙴', 
+       url: 'https://youtube.com/channel/UCAMpDDfVjxdxKS8i8MLrSEQ'
+        } }
       ]
      }
      const sendm =  sock.sendMessage(
